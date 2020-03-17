@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/run/media/chipen/数据/Pro_TEST/Pro_TEST_Cpp/cmakeTest/HelloWorld/inc/HelloWorld.h
+iostream
+-
+string
+-
+
+/run/media/chipen/数据/Pro_TEST/Pro_TEST_Cpp/cmakeTest/header.h
+./HelloWorld/inc/HelloWorld.h
+/run/media/chipen/数据/Pro_TEST/Pro_TEST_Cpp/cmakeTest/HelloWorld/inc/HelloWorld.h
+
+/run/media/chipen/数据/Pro_TEST/Pro_TEST_Cpp/cmakeTest/main.cpp
+header.h
+/run/media/chipen/数据/Pro_TEST/Pro_TEST_Cpp/cmakeTest/header.h
+
